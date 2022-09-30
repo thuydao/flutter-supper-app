@@ -1,0 +1,73 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach to Chrome",
+      "port": 9222,
+      "request": "attach",
+      "type": "chrome",
+      "webRoot": "${workspaceFolder}"
+    },
+
+    {
+      "name": "flutter-supper-app",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "flutter-supper-app (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "flutter-supper-app (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "host_app",
+      "cwd": "host_app",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "host_app (profile mode)",
+      "cwd": "host_app",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "host_app (release mode)",
+      "cwd": "host_app",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "flutter-login",
+      "cwd": "flutter-login/example",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "flutter-login (profile mode)",
+      "cwd": "flutter-login",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "flutter-login (release mode)",
+      "cwd": "flutter-login",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    }
+  ]
+}
